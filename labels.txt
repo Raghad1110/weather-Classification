@@ -1,0 +1,2 @@
+0 rainy weather
+1 sunny weather
