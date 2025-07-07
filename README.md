@@ -4,11 +4,11 @@ Weather Classification
 
 This project classifies weather into two categories: “Sunny” or “Rainy” based on image data. It uses a model trained with Google Teachable Machine and implemented in Python using Keras and TensorFlow.
 
-📌 Project Overview
+# Project Overview
 
 The goal of this project is to classify images of weather conditions as either sunny or rainy. The model is trained using Google Teachable Machine, a tool that allows for easy image classification model creation. Once trained, the model is exported and used within a Python script, leveraging Keras and TensorFlow for prediction.
 
-🛠️ Requirements
+# Requirements
 
 To run this project, you will need to have the following installed:
  • Python 3.x
@@ -20,7 +20,7 @@ To run this project, you will need to have the following installed:
 You can install the necessary dependencies using the following:
 pip install -r requirements.txt
 
-Installation and Usage
+# Installation and Usage
  1. Clone the Repository:
 Clone this repository to your local machine using the following command:
 https://github.com/Raghad1110/weather-Classification.git
@@ -35,7 +35,7 @@ The script will read an input image, preprocess it, and predict whether the weat
 5. Model Output:
 The output of the model will display the classification result on the screen, showing whether the weather is sunny or rainy based on the input image.
 
-Example Usage
+ # Example Usage
 Here is a Python code snippet for loading the model and using it to classify a weather image:
 import cv2
 from keras.models import load_model
